@@ -1,0 +1,67 @@
+.supportSection {
+  width: 30vw;
+  position: relative;
+}
+
+.supportOverall {
+  position: fixed;
+  right: 5vw;
+  top: 20vh;
+  width: 25vw;
+  background-color: #ddd;
+  border: #333 solid 1px;
+  border-radius: 10px;
+}
+
+.supportOverall .supportName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.supportBox {
+  padding: 1.5rem;
+}
+
+.supportTitle {
+  margin-top: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.supportBox .supportStatus,
+.supportBox .supportStatusOK,
+.supportBox .supportStatusBad,
+.supportBox .supportStatusOr,
+.supportBox .supportStatusRest {
+  margin: 0 auto;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 20px;
+}
+
+.supportBox .supportStatusOK {
+  background-color: #055a32;
+}
+
+.supportBox .supportStatusBad {
+  background-color: #913225;
+}
+
+.supportBox .supportStatusOr {
+  background-color: rgb(199, 96, 11);
+}
+
+.supportBox .supportStatusRest {
+  background-color: rgb(65, 65, 65);
+}
+
+.supportBox .supportStatus .supportStatusText,
+.supportBox .supportStatusOK .supportStatusText,
+.supportBox .supportStatusBad .supportStatusText,
+.supportBox .supportStatusOr .supportStatusText,
+.supportBox .supportStatusRest .supportStatusText {
+  padding: 0.4rem;
+  text-align: center;
+  color: whitesmoke
+}
