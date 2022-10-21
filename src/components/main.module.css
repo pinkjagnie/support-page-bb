@@ -1,0 +1,59 @@
+.mainSection {
+  width: 60 vw;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  background-color: #f9f9f9;
+}
+
+.serviceBox {
+  padding: 1.5rem;
+}
+
+.serviceTitle {
+  margin-top: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.serviceBox .serviceStatus,
+.serviceBox .serviceStatusOK,
+.serviceBox .serviceStatusBad,
+.serviceBox .serviceStatusOr,
+.serviceBox .serviceStatusRest {
+  margin-left: 0.5rem;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 20px;
+}
+
+.serviceBox .serviceStatusOK {
+  background-color: #055a32;
+}
+
+.serviceBox .serviceStatusBad {
+  background-color: #913225;
+}
+
+.serviceBox .serviceStatusOr {
+  background-color: rgb(199, 96, 11);
+}
+
+.serviceBox .serviceStatusRest {
+  background-color: rgb(65, 65, 65);
+}
+
+.serviceBox .serviceStatus .serviceStatusText,
+.serviceBox .serviceStatusOK .serviceStatusText,
+.serviceBox .serviceStatusBad .serviceStatusText,
+.serviceBox .serviceStatusOr .serviceStatusText,
+.serviceBox .serviceStatusRest .serviceStatusText {
+  padding: 0.4rem;
+  text-align: center;
+  color: whitesmoke
+}
+
+.line {
+  height: 0.2rem;
+  width: 55vw;
+  background-color: #1f2b37
+}

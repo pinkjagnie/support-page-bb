@@ -1,0 +1,10 @@
+.headerSection {
+  height: 15vh;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.headerSection h1 {
+  margin: 0 auto;
+  line-height: 15vh;
+}
