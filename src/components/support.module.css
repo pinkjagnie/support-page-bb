@@ -9,7 +9,7 @@
   top: 20vh;
   width: 25vw;
   background-color: #ddd;
-  border: #333 solid 1px;
+  border: #999 solid 1px;
   border-radius: 10px;
 }
 
@@ -35,8 +35,8 @@
 .supportBox .supportStatusOr,
 .supportBox .supportStatusRest {
   margin: 0 auto;
-  width: 12vw;
-  height: 12vw;
+  width: 60%;
+  height: 60%;
   border-radius: 20px;
 }
 
@@ -64,4 +64,11 @@
   padding: 0.4rem;
   text-align: center;
   color: whitesmoke
+}
+
+@media(min-width: 1280px) {
+  .supportOverall {
+    right: 10vw;
+    top: 22vh;
+  }
 }

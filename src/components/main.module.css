@@ -1,5 +1,4 @@
 .mainSection {
-  width: 60 vw;
   padding-top: 2rem;
   padding-left: 1.5rem;
   background-color: #f9f9f9;
@@ -56,4 +55,24 @@
   height: 0.2rem;
   width: 55vw;
   background-color: #1f2b37
+}
+
+@media(min-width: 1280px) {
+  .mainSection {
+    padding-left: 4rem
+  }
+
+  .serviceBox .serviceStatus,
+  .serviceBox .serviceStatusOK,
+  .serviceBox .serviceStatusBad,
+  .serviceBox .serviceStatusOr,
+  .serviceBox .serviceStatusRest {
+    margin-left: 1rem;
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .line {
+    width: 40vw;
+  }
 }
