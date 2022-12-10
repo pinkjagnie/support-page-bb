@@ -5,11 +5,20 @@ import "../components/adminLoginPage.css";
 const AdminLoginPage = () => {
   return(
     <div className="adminLoginSection">
-    <form className="adminLoginForm">
-      <input type="text" placeholder="Login" required autoFocus className="searchBarInput"/>
-      <input type="text" placeholder="Password" required className="searchBarInput"/>
-      <button className="searchBarButton">Login</button>
-    </form>
+      <h1>Witaj w panelu admina</h1>
+      <div className="adminLoginBox">
+      <form className="adminLoginForm">
+        <div className="control">
+          <label htmlFor="login">Login</label>
+          <input type="text" id="login" placeholder="Login" required autoFocus className="adminLoginInput"/>
+        </div>
+        <div className="control">
+          <label htmlFor="password">Password</label>
+          <input type="text" id="password" placeholder="Password" required className="adminLoginInput"/>
+        </div>
+        <button className="adminLoginButton">Login</button>
+      </form>
+    </div>
   </div>
   )
 };

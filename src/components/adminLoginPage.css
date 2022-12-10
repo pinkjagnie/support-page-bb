@@ -1,4 +1,15 @@
 .adminLoginSection {
+  width: 100%;
+  height: 100vh;
+}
+
+.adminLoginSection h1 {
+  margin-top: 0;
+  padding: 3rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.adminLoginBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,14 +17,34 @@
   border-radius: 25px;
   -webkit-box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 24px 7px rgba(0, 0, 0, 0.2);
-  background-color: #222831;
-  color: whitesmoke;
+  /* background-color: #222831; */
+  /* color: whitesmoke; */
   width: 85%;
   max-width: 675px;
   min-height: 300px;
 }
 
+#light .adminLoginBox {
+  background-color: #aaa;
+}
+
+#dark .adminLoginBox {
+  background-color: #222831;
+}
+
+.control {
+  margin: 1rem auto;
+}
+
+.control label {
+  display: block;
+  margin: 0 0 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
 .adminLoginInput {
+  display: block;
   width: 350px;
   padding: 0.6rem 1rem;
   border-radius: 15px;
@@ -21,11 +52,30 @@
 }
 
 .adminLoginButton {
-  height: 50px;
-  width: 50px;
-  padding: 0.65rem;
-  border: none;
-  background-color: transparent;
+  display: block;
+  width: 180px;
+  margin: 1.8rem auto;
+  padding: 0.5rem 2rem;
+  /* border: 1.5px solid whitesmoke; */
+  border-radius: 15px;
+  background-color: #1f2b37;
   color: whitesmoke;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
+}
+
+#light .adminLoginButton {
+  border: 1.5px solid black;
+  /* background-color: #656565; */
+}
+
+#dark .adminLoginButton {
+  border: 1.5px solid whitesmoke;
+  /* background-color: #1f2b37;
+  color: whitesmoke; */
+}
+
+.adminLoginButton:hover {
+  background-color: #656565;
 }
