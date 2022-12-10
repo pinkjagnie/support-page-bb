@@ -1,87 +1,87 @@
 import React from "react";
 
-import styles from "./main.module.css";
+import "./main.css";
 
 const Main = () => {
   return(
-    <div className={styles.mainSection}>
+    <div className="mainSection">
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Serwer baza danych</p>
-        <div className={styles.serviceStatusOr}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Serwer baza danych</p>
+        <div className="serviceStatusOr">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>Duży ruch</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Serwer Oxygen</p>
-        <div className={styles.serviceStatusOr}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Serwer Oxygen</p>
+        <div className="serviceStatusOr">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>Planowana konserwacja</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Serwer Hydrogen</p>
-        <div className={styles.serviceStatusOK}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Serwer Hydrogen</p>
+        <div className="serviceStatusOK">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>OK</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Serwer Backup</p>
-        <div className={styles.serviceStatusRest}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Serwer Backup</p>
+        <div className="serviceStatusRest">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>Konserwacja</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Serwer CCTV</p>
-        <div className={styles.serviceStatusBad}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Serwer CCTV</p>
+        <div className="serviceStatusBad">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>Awaria</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Usługi Klient Biznesowy</p>
-        <div className={styles.serviceStatusOK}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Usługi Klient Biznesowy</p>
+        <div className="serviceStatusOK">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>OK</p>
           </div>
         </div>
       </div>
 
-      <div className={styles.line}></div>
+      <div className="line"></div>
 
-      <div className={styles.serviceBox}>
-        <p className={styles.serviceTitle}>Usługi Klient Indywidualny</p>
-        <div className={styles.serviceStatusOK}>
-          <div className={styles.serviceStatusText}>
+      <div className="serviceBox">
+        <p className="serviceTitle">Usługi Klient Indywidualny</p>
+        <div className="serviceStatusOK">
+          <div className="serviceStatusText">
             <p>Status:</p>
             <p>OK</p>
           </div>

@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.themeSwitcherBox {
+  position: fixed;
+  top: 30px;
+  right: 150px;
+}
+
+.themeSwitcherBox .themeSwitcherIcon {
+  padding: 0 8px;
+}
+
+/* THEMES */
+
+#light {
+  background-color: #f9f9f9;
+  color: #1f2b37;
+}
+
+#dark {
+  background-color: #343d4b;
+  color: whitesmoke;
+}
+

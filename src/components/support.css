@@ -7,10 +7,20 @@
   position: fixed;
   right: 5vw;
   top: 20vh;
-  width: 25vw;
+  width: 250px;
+  /* background-color: #ddd;
+  border: #999 solid 1px; */
+  border-radius: 10px;
+}
+
+#light .supportOverall {
   background-color: #ddd;
   border: #999 solid 1px;
-  border-radius: 10px;
+}
+
+#dark .supportOverall {
+  background-color: #222831;
+  border: black solid 1px;
 }
 
 .supportOverall .supportName {
@@ -20,7 +30,7 @@
 }
 
 .supportBox {
-  padding: 1.5rem;
+  margin: 1.5rem;
 }
 
 .supportTitle {
@@ -35,8 +45,8 @@
 .supportBox .supportStatusOr,
 .supportBox .supportStatusRest {
   margin: 0 auto;
-  width: 60%;
-  height: 60%;
+  width: 120px;
+  height: 120px;
   border-radius: 20px;
 }
 
