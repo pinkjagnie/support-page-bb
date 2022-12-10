@@ -4,19 +4,18 @@ import SharedLayout from './components/ui/SharedLayout';
 
 import HomePage from "./pages/HomePage";
 import AdminLoginPage from './pages/AdminLoginPage';
+import ErrorPage from './pages/ErrorPage';
 
-function App() {
-
-  
+function App() { 
 
   return (
     <BrowserRouter>
       <Routes>
-        
-          <Route path='/' element={<SharedLayout />}>
-            <Route index element={<HomePage />} />
-            <Route path='admin' element={<AdminLoginPage />} />
-          </Route>
+        <Route path='/' element={<SharedLayout />}>
+          <Route index element={<HomePage />} />
+          <Route path='admin' element={<AdminLoginPage />} />
+        </Route>
+        <Route path='*' element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );

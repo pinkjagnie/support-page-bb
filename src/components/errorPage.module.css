@@ -1,0 +1,49 @@
+.errorPageSection {
+  width: 100%;
+  height: 100vh;
+  background-color: #656565;
+  color: whitesmoke;
+}
+
+.errorPageBox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.errorPageText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorPageText img {
+  height: 330px;
+  margin: 4rem auto 0;
+}
+
+.errorPageText span {
+  position: relative;
+  margin-bottom: 2rem;
+  font-size: 3.3em;
+  font-weight: bold;
+}
+
+.errorPageText p {
+  margin: 30px 0 15px 0;
+  font-size: 19px;
+}
+
+.link404 {			 
+  padding: 10px 20px;
+  margin: 20px 0;
+  color: whitesmoke;
+  background: #1f2b37;
+  text-decoration: none;
+}
+
+.link404:hover {
+  background-color: #3e7094;
+}
