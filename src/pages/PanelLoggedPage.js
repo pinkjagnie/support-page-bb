@@ -1,5 +1,7 @@
 import React from "react";
 
+import LoggedSupport from "../components/logged/LoggedSupport";
+
 import "../components/panelLoggedPage.css";
 
 const PanelLoggedPage = () => {
@@ -11,9 +13,7 @@ const PanelLoggedPage = () => {
         <div>Support</div>
       </div>
       <div>
-        <nav>
-
-        </nav>
+        <LoggedSupport />
       </div>
     </div>
   )

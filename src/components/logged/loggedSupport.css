@@ -1,0 +1,13 @@
+.loggedSupportSection {
+  width: 800px;
+  max-height: 90vh;
+  padding: 2rem 4rem;
+}
+
+.loggedSupportBreakBox {
+  padding: 1rem;
+}
+
+.loggedSupportBreakSwitch span {
+  padding: 0rem 0.8rem;
+}
