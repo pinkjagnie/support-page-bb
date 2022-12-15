@@ -1,0 +1,62 @@
+.loggedAdminSection {
+  width: 800px;
+  /* max-height: 90vh; */
+  padding: 2rem 4rem;
+}
+
+.loggedAdminBreakBox,
+.loggedAdminServiceBox {
+  padding: 1rem;
+}
+
+.loggedAdminBreakSwitch span {
+  padding: 0rem 0.8rem;
+}
+
+.loggedAdminSingleService {
+  padding: 1rem;
+}
+
+.loggedAdminSingleService form {
+  display: flex;
+  width: 550px;
+  justify-content: space-between;
+}
+
+.loggedAdminSingleService form label {
+  width: 220px;
+}
+
+.loggedAdminSingleService form select {
+  width: 190px;
+}
+
+.loggedAdminSingleService form button {
+  display: block;
+  /* width: 180px; */
+  /* margin: 1.8rem auto; */
+  /* padding: 0.5rem 2rem; */
+  /* border: 1.5px solid whitesmoke; */
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #1f2b37;
+  color: whitesmoke;
+  /* font-size: 1rem; */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#light .loggedAdminSingleService form button {
+  border: 1.5px solid black;
+  /* background-color: #656565; */
+}
+
+#dark .loggedAdminSingleService form button {
+  border: 1.5px solid whitesmoke;
+  /* background-color: #1f2b37;
+  color: whitesmoke; */
+}
+
+.loggedAdminSingleService form button:hover {
+  background-color: #656565;
+}

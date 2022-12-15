@@ -1,4 +1,5 @@
 import React from "react";
+import LoggedAdmin from "../components/logged/LoggedAdmin";
 
 import LoggedSupport from "../components/logged/LoggedSupport";
 
@@ -14,6 +15,7 @@ const PanelLoggedPage = () => {
       </div>
       <div>
         <LoggedSupport />
+        <LoggedAdmin />
       </div>
     </div>
   )
