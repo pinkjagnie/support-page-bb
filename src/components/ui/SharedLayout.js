@@ -1,6 +1,8 @@
 import React, { createContext, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 
+import ScrollToTop from './ScrollToTop';
+
 import ReactSwitch from "react-switch";
 
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
@@ -23,6 +25,7 @@ const SharedLayout = () => {
             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
             <BsFillMoonFill size="1.5em" className="themeSwitcherIcon"/>
           </div>
+          <ScrollToTop />
           <Outlet />
         </div>
       </ThemeContext.Provider>
