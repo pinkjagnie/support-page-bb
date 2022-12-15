@@ -1,6 +1,7 @@
 import React from "react";
-import LoggedAdmin from "../components/logged/LoggedAdmin";
 
+import LoggedSuperAdmin from "../components/logged/LoggedSuperAdmin";
+import LoggedAdmin from "../components/logged/LoggedAdmin";
 import LoggedSupport from "../components/logged/LoggedSupport";
 
 import "../components/panelLoggedPage.css";
@@ -16,6 +17,7 @@ const PanelLoggedPage = () => {
       <div>
         <LoggedSupport />
         <LoggedAdmin />
+        <LoggedSuperAdmin />
       </div>
     </div>
   )

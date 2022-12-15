@@ -1,0 +1,17 @@
+.loggedSuperAdminSection {
+  width: 800px;
+  padding: 2rem 4rem;
+}
+
+.loggedSuperAdminSingleBox {
+  padding: 1rem;
+}
+
+.loggedSuperAdminSingleTitle {
+  display: flex;
+}
+
+.loggedSuperAdminSingleTitle h3 {
+  padding-left: 10px;
+  margin-top: 10px;
+}
