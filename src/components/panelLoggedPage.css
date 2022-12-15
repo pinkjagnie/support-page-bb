@@ -1,0 +1,27 @@
+.loggedPageSection {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.loggedPageNavBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 5vh;
+  padding: 1.5rem 3rem;
+}
+
+.loggedPageNavBox div {
+  padding-right: 0.8rem;
+  font-weight: bold;
+}
+
+#light .loggedPageNavBox div {
+  border-right: 3px solid #1f2b37;
+}
+
+#dark .loggedPageNavBox div {
+  border-right: 3px solid #f9f9f9;
+}
+

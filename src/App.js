@@ -5,6 +5,7 @@ import SharedLayout from './components/ui/SharedLayout';
 import HomePage from "./pages/HomePage";
 import LoginPage from './pages/LoginPage';
 import ErrorPage from './pages/ErrorPage';
+import PanelLoggedPage from './pages/PanelLoggedPage';
 
 function App() { 
 
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<HomePage />} />
           <Route path='login' element={<LoginPage />} />
+          <Route path='login/panel' element={<PanelLoggedPage />} />
         </Route>
         <Route path='*' element={<ErrorPage />} />
       </Routes>
