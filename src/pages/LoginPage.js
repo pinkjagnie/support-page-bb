@@ -1,8 +1,8 @@
 import React from "react";
 
-import "../components/adminLoginPage.css";
+import "../components/loginPage.css";
 
-const AdminLoginPage = () => {
+const LoginPage = () => {
   return(
     <div className="adminLoginSection">
       <h1>Witaj w panelu admina</h1>
@@ -23,4 +23,4 @@ const AdminLoginPage = () => {
   )
 };
 
-export default AdminLoginPage;
+export default LoginPage;
